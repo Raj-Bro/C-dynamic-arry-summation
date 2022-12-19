@@ -1,0 +1,30 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+       int []r= new int [10];
+       int sum=0;
+       int i;
+       Console.WriteLine("Enter the arry elements");
+       int t=Convert.ToInt32(Console.ReadLine());
+       Console.WriteLine("Enter the arry elements");
+       for(i=0;i<t;i++)
+       {
+           r[i]= Convert.ToInt32(Console.ReadLine());
+       }
+       Console.WriteLine("Enter the arry elements");
+       for(i=09;i<t;i++)
+       {
+           Console.WriteLine(r[i]);
+       }
+       for(i=0;i<t;i++)
+       {
+           sum=sum+r[i];
+       }
+       Console.WriteLine("This sum is "+sum);
+       Console.ReadLine();
+       
+    }
+}
